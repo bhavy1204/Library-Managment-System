@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Library_Managment_system.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 70%;
+            text-decoration:none;
+        }
+        .auto-style2 {
+            text-align: center;
+            padding-left:10px;
+            text-decoration:none;
+        }
+        .auto-style3 {
+            width: 107px;
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 class="auto-style2">LIBRARY MANAGMENT SYSTEM</h1>
+    <hr />
+    <center>
+    <table class="auto-style1" >
+        <tr>
+            <td><a href="page_home.aspx">home</a></td>
+            <td><a href="page_newstudent.aspx">add student</a></td>
+            <td><a href="page_searchstudent.aspx">search student</a></td>
+            <td><a href="page_allstudent.aspx">show students</a></td>
+            <td><a href="page_newbook.aspx">add book</a></td>
+            <td><a href="page_searchbook.aspx">search book</a></td>
+            <td><a href="page_allbook.aspx">show books</a></td>
+            <td><a href="page_bookissue.aspx">issue</a></td>
+            <td><a href="page_submitbook.aspx">submit</a></td>
+             <td><a href="page_logout.aspx">logout</a></td>
+        </tr>
+    </table>
+        </center>
+    <hr />
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
