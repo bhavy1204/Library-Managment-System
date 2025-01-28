@@ -1,0 +1,1 @@
+This is a repo for my completion of 2nd year of Btech. This was a group project and we decided to make a Library management system. We used Asp.net and SQL for database 
